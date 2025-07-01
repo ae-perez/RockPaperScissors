@@ -114,6 +114,6 @@ function playGame() {
 playGame();
 
 // todo:
-// * instead of the final score showing, just announce the winner
-// * currently the final score shows, then user has to hit
-// * a button one final time before the winner is announced
+// Now that we have all our code in the main branch, we don’t really need our rps-ui branch anymore.
+// Let’s do some cleanup, both locally and in the remote repo. Delete the branch from our local repo with git branch -d rps-ui
+// and also delete it from the remote repo on GitHub with git push origin --delete rps-ui. Congrats, we’re all done with our cleanup!
